@@ -14,8 +14,9 @@
  <div class="header">
   <div class="header-top">
    <div class="header-title">
-    <h1>旅BOOK</h1>
+    <h1><img src="{{asset('/image/travel.png')}}" alt="titleアイコン" width="50px">旅BOOK</h1>
     <p>〜みんなの思い出でつくるサイト</p>
+    </div>
     <div class="site-date">
       <h3>累計投稿数</h3>
     </div>
@@ -30,17 +31,19 @@
       </li>
      </div>
    </div>
+  <div class="site-var">
+   <ul>
+     <li><a href="#">ホーム</a></li>
+     <li><a href="#">サイトについて</a></li>
+     <li><a href="#">製作者について</a></li>
+   </ul>  
   </div>
-</div>
-  <!-- <div class="nav">
-    <ul class="nav-var">
-        <li><a href="#"></li>
-        <li><a href="#">編集</a></li>
-        <li><a href="#">ログアウト</a></li>
-   </ul>
-  </div> -->
  </div>
+</div>
 </header>
+<div class="top-content">
+  
+</div>
 
 </body>
 </html>
