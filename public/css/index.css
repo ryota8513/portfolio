@@ -82,3 +82,34 @@ li{
   margin:0 auto;
 
 }
+.slider-content{
+  /* display:none; */
+  position:relative;
+  width:100%;
+}
+.slider-content.initialized{
+  dispaly:block;
+}
+.silder-arrow{
+  position: absolute;
+  font-size:30px;
+  cursor:pointer;
+  z-index:10;
+}
+.slider-prev{
+  left:0;
+  margin-left:10px;
+  color:white;
+}
+.slider-next{
+  right:0;
+  margin-right:10px;
+  color:white;
+}
+.slider{
+  padding:0;
+}
+.slider li img{
+   width:300px;
+   height:300px;
+}

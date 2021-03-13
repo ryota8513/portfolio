@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="csrf-token" content="{{ csrf_token() }}"> 
   <link rel="stylesheet" href="{{asset('/css/index.css')}}">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
@@ -41,9 +42,17 @@
  </div>
 </div>
 </header>
-<div class="top-content">
-  
+<div class="slider-content">
+  <ul class="slider">
+     <li><img src="{{asset('/image/sample1.png')}}"></li>
+     <li><img src="{{asset('/image/sample2.jpg')}}"></li>
+     <li><img src="{{asset('/image/sample3.jpg')}}"></li>
+     <li><img src="{{asset('/image/sample4.jpg')}}"></li>
+     <li><img src="{{asset('/image/sample5.jpg')}}"></li>
+     <li><img src="{{asset('/image/sample6.jpg')}}"></li>
+  </ul>
 </div>
+<script src="{{asset('/assets/index.js')}}"></script>
 
 </body>
 </html>

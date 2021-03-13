@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('index','UserController@index');
+Route::get('index',function(){
+      return view('index');
+});
