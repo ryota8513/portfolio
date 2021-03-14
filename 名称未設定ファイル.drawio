@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T00:09:45.645Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="vMLeZG976AJ7PyXo7kgZ" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T00:23:34.683Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="AVVc8gInQ1gYIcYWHiRE" version="14.4.7" type="github">
   <diagram id="-yEpa4g7iN3uwMaF_sMH" name="ページ1">
-    <mxGraphModel dx="1186" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,13 +125,13 @@
           <mxGeometry x="330" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rTFpoOhSLpEY50gnlQkP-54" value="user_name　　投稿者            　　　　   varchar(10)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
-          <mxGeometry x="70" y="460" width="330" height="20" as="geometry" />
+          <mxGeometry x="69" y="430" width="330" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rTFpoOhSLpEY50gnlQkP-57" value="contents            行き先　場所                   varchar(20)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
+        <mxCell id="rTFpoOhSLpEY50gnlQkP-57" value="title                   行き先　場所                   varchar(20)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="69" y="480" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rTFpoOhSLpEY50gnlQkP-58" value="post_id             投稿ID　　　　　　　　  int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
-          <mxGeometry x="70" y="430" width="290" height="20" as="geometry" />
+          <mxGeometry x="70" y="460" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rTFpoOhSLpEY50gnlQkP-60" value="PK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="185" width="30" height="20" as="geometry" />
